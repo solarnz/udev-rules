@@ -1,0 +1,5 @@
+# Wireless
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="7c:7a:91:94:3a:b3", NAME="wl0"
+
+# Ethernet
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="28:d2:44:6c:1d:4b", NAME="en0"
